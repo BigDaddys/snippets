@@ -5,6 +5,8 @@
 * Переворот числа (__reverseInt__)
 * Счастливый билет (__isHappyNumber__)
 * Переворот строки (__reverseString__)
+* Палиндром (__isPalindrome__)
+* Степень тройки (__isPowerOfThree__)
 
 ------
 ### reverseInt(number)
@@ -35,4 +37,64 @@ isHappyTicket(128722); // true
 ```javascript
 reverseString('str'); // rts
 reverseString('hello'); // olleh
+```
+
+----
+### isPalindrome(string)
+Определяет, является ли строка палиндромом.
+
+Палиндром — число, слово или текст, одинаково читающееся в обоих направлениях. Например: радар, топот.
+
+**Пример:**
+```javascript
+isPalindrome('radar'); // true
+isPalindrome('a'); // true
+isPalindrome('abs'); // false
+```
+
+----
+### isPowerOfThree(number)
+Определяет, является ли переданное число натуральной степенью тройки. Например, число 27 это третья степень (3^3), а 81 это четвертая (3^4).
+
+**Пример:**
+```javascript
+isPowerOfThree(1); // true (3^0)
+isPowerOfThree(2); // false
+isPowerOfThree(9); // true (3^2)
+```
+
+----
+###
+
+
+**Пример:**
+```javascript
+
+```
+
+----
+###
+
+
+**Пример:**
+```javascript
+
+```
+
+----
+###
+
+
+**Пример:**
+```javascript
+
+```
+
+----
+###
+
+
+**Пример:**
+```javascript
+
 ```
