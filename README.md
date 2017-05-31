@@ -1,3 +1,73 @@
+# Ресурсы для Frontend Developer
+
+## Библиотеки
+
+-------
+
+### [SugarJS](https://sugarjs.com/)
+
+Библиотека для работы с Native объектами
+
+```javascript
+Sugar.Number.random(1, 100); // 59
+Sugar.Date.create('next Friday'); // June 9, 2017 12:00 AM
+Sugar.Array.unique([1,2,2,3]); // [1, 2, 3]
+Sugar.Date.format(new Date(), '%Y-%m-%d'); // "2017-05-31"
+[1,2,2,4].filter(2); // [2, 2]
+```
+
+------
+
+### [Scrollanim](http://scrollanim.kissui.io/)
+
+Vanilla JavaScript библиотека для анимации скролла. Предлагает множество вариантов настройки, отдельные HTML и JavaScript APIs, и более 50 эффектов анимации благодаря встроенному Animate.css
+
+HTML Init
+```html
+<div data-kui-anim="fadeIn">
+  Show this with a fadeIn animation.
+</div>
+```
+
+JavaScript Init
+```javascript
+kissuiScrollAnim.add(element, {
+  'in': 'fadeIn',
+  'out': 'fadeOut'
+});
+```
+
+------
+
+### [baguetteBox.js](https://feimosi.github.io/baguetteBox.js/)
+
+Простой LightBox на чистом JavaScript
+
+```javascript
+baguetteBox.run('.baguetteBoxThree', {
+  animation: 'fadeIn',
+  noScrollbars: true
+});
+```
+
+------
+
+### [BigPicture](https://henrygd.me/bigpicture/)
+
+Легкий lightbox для изображений и видео
+
+------
+
+## UI & Framework
+
+------
+
+### [Propeller](https://github.com/digicorp/propeller/)
+
+Responsive framework, основанный на стандартах Google Material Design и Bootstrap
+
+------
+
 # Сниппеты
 
 ## JavaScript
